@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>記帳 App 隱私權政策</title>
+<style>
+  body { margin: 0; padding: 48px 24px; background: #000; color: #EDEDED; font: 16px/1.8 system-ui, "Noto Sans TC", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 8px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  p, li { color: #C8C8C8; }
+  a { color: #828FFF; }
+  .note { color: #8F8F8F; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>記帳 App 隱私權政策</h1>
+  <p class="note">生效日期：2026 年 10 月 4 日</p>
+  <p>「記帳 App」是開發者自己使用的個人工具，沒有上架，也不提供給其他人使用。這份政策說明它如何存取、使用、儲存與分享 Google 使用者資料。</p>
+
+  <h2>存取哪些 Google 使用者資料</h2>
+  <p>App 以使用者本人的 Google 帳戶取得授權，用來執行使用者自己擁有的 Google Apps Script 專案。該專案使用下列權限：</p>
+  <ul>
+    <li><strong>Google 試算表</strong>：讀寫使用者自己的記帳試算表（收支紀錄、帳戶、類別、設定）。</li>
+    <li><strong>Gmail（唯讀）</strong>：讀取銀行寄給使用者的入帳、扣款、刷卡通知與信用卡帳單，用來和使用者自己記的帳核對。不會寄信、修改或刪除信件。</li>
+    <li><strong>Google 雲端硬碟（僅限本程式建立的檔案）</strong>：把信用卡帳單 PDF 暫時轉成文字，讀完即刪除。不會存取雲端硬碟裡的其他檔案。</li>
+    <li><strong>Apps Script 的排程與外部連線</strong>：每天定時執行上述匯入；外部連線只用來呼叫 Google 自己的 API。</li>
+  </ul>
+
+  <h2>如何使用這些資料</h2>
+  <p>只用於記帳功能本身：顯示收支明細與統計、核對銀行紀錄、計算資產總覽。不用於廣告、行銷、分析，也不用來訓練任何模型。</p>
+
+  <h2>資料存在哪裡</h2>
+  <ul>
+    <li>使用者自己的 Google 帳戶（試算表與 Apps Script 專案）。</li>
+    <li>使用者自己的手機：App 會保存一份上次同步的資料與還沒送出的紀錄，只有這個 App 讀得到。</li>
+  </ul>
+  <p>開發者沒有另外的伺服器或資料庫，資料不會傳到上述兩處以外的地方。</p>
+
+  <h2>是否分享給第三方</h2>
+  <p>不分享、不出售、不轉移給任何第三方。</p>
+
+  <h2>如何刪除資料與撤銷授權</h2>
+  <ul>
+    <li>手機上的資料：解除安裝 App，或在系統設定清除 App 的資料。</li>
+    <li>Google 帳戶裡的資料：刪除記帳試算表。</li>
+    <li>撤銷授權：到 <a href="https://myaccount.google.com/permissions">Google 帳戶的第三方存取權</a> 移除這個 App。</li>
+  </ul>
+
+  <h2>Google API 服務使用者資料政策</h2>
+  <p>本 App 對從 Google API 取得的資訊的使用與轉移，遵守
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服務使用者資料政策</a>，包含其中的「有限使用」規定。</p>
+
+  <h2>聯絡方式</h2>
+  <p>GitHub 帳號 xup68u04。</p>
+
+  <p><a href="index.html">回到首頁</a></p>
+</main>
+</body>
+</html>
